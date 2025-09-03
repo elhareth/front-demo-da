@@ -1,0 +1,75 @@
+{
+    "site": {
+        "name": "",
+        "icon": "",
+        "logo": "",
+        "label": "السهم الماسي",
+        "title": "",
+        "description": "",
+        "keywords": [],
+        "copy": ""
+    },
+    "welcome_message": "",
+    "buttons": {
+        "join_us": "انضم إلينا",
+        "subscribe": "",
+        "dark_mode": "الوضع الداكن",
+        "light_mode": "الوضع الفاتح",
+        "button": ""
+    },
+    "navbar": {
+        "label": "شريط التنقل",
+        "title": "",
+        "description": "",
+        "links": {
+            "home": "الرئيسية",
+            "services": "الخدمات",
+            "projects": "المشاريع",
+            "investments": "الاستثمارات",
+            "partners": "الشركاء",
+            "about": "من نحن",
+            "contact": "اتصل بنا"
+        },
+        "buttons": {
+            "change_lang": "تغيير اللغة",
+            "change_theme": "تغيير المظهر"
+        }
+    },
+    "header_section": {
+        "label": "",
+        "title": "",
+        "description": ""
+    },
+    "contact_section": {
+        "label": "",
+        "title": "",
+        "description": "",
+        "email": "البريد الإلكتروني",
+        "phone": "الهاتف",
+        "address": "العنوان"
+    },
+    "footer_section": {
+        "label": "",
+        "title": "",
+        "description": "",
+        "copy": "جميع الحقوق محفوظة © السهم الماسي"
+    },
+    "hero_section": {
+        "label": "",
+        "title": "",
+        "welcome_message": "",
+        "primary_line": "استثمر في المستقبل الأخضر",
+        "secondary_line": "نحن نقدم فرصًا استثمارية مربحة ومبتكرة في القطاع الزراعي، مدعومة بالتكنولوجيا الحديثة لزيادة الإنتاج وتحقيق استدامة مالية للمستثمرين",
+        "join_button": "ابدأ الاستثمار الآن"
+    },
+    "stats_section": {
+        "label": "",
+        "title": "",
+        "cards": "",
+        "investors": "المستثمرين",
+        "partners": "الشركاء",
+        "projects": "المشاريع",
+        "budget": "الميزانية",
+        "foot_line": ""
+    }
+}

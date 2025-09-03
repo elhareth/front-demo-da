@@ -1,0 +1,9 @@
+@import "variables";
+
+:root {
+  --theme-primary: #{$theme-primary};
+  --theme-secondary: #{$theme-secondary};
+
+  --font-primary: #{$font-primary};
+  --font-secondary: #{$font-secondary};
+}

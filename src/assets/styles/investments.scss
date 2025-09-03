@@ -1,0 +1,57 @@
+@import "variables";
+
+#investments {
+  .card {
+    
+    .card-title {
+        font: {
+            family: $font-secondary;
+            weight: light;
+        }
+    }
+    
+    // Button
+    button {
+      position: relative;
+      background: var(--theme-primary);
+      padding: 15px 25px;
+      z-index: 1;
+      border: unset;
+      border-radius: 15px;
+    //   color: var(--bs-success);
+      color: lighten($theme-primary, 50%);
+      font: {
+        family: "Noto Kufi Arabic";
+        weight: 500;
+        size: 17px;
+      }
+      -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+      box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+      transition: all 250ms;
+      overflow: hidden;
+
+      &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 0;
+        border-radius: 15px;
+        background-color: darken($theme-primary, 25%);
+        z-index: -1;
+        -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+        box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+        transition: all 250ms;
+      }
+
+      &:hover {
+        color: var(--bs-light);
+
+        &::before {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

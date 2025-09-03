@@ -1,0 +1,26 @@
+.fo {
+    &-primary {
+        font: {
+            family: var(--font-primary);
+        }
+    }
+    &-secondary {
+        font: {
+            family: var(--font-secondary);
+            size: 32px;
+            weight: bold;
+        };
+    }
+    &-classic {
+        font: {
+            family: "Amiri";
+            size: 32px;
+            weight: bolder;
+        };
+    }
+    &-modern {
+        font: {
+            family: "Noto Kufi Arabic";
+        }
+    }
+  }

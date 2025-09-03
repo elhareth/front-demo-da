@@ -1,0 +1,126 @@
+@import "variables";
+@import "root";
+@import "fontia";
+// Then import Bootstrap
+$enable-rtl: true; // Enable RTL processing
+@import "bootstrap/scss/bootstrap";
+@import "investments";
+
+
+.bg-theme-primary {
+  background-color: $theme_primary !important;
+}
+.bg-semi-transparent {
+  background-color: rgba(0, 0, 0, 0.5); /* 50% opacity */
+}
+
+.btn-join {
+  @extend .btn-success;
+  background-color: $theme_primary;
+
+  &:hover {
+    background-color: darken($color: $theme_primary, $amount: 10%);
+  }
+}
+
+.theme-navbar-primary {
+  background-color: $theme_primary;
+
+  .nav-link {
+    color: lighten(
+      $color: $theme_primary,
+      $amount: 50%
+    ); // Setting text color for links
+    &:hover {
+      color: darken(
+        $color: $theme_primary,
+        $amount: 25%
+      ); // Change color on hover
+    }
+  }
+}
+
+[data-bs-theme="dark"] {
+  .btn-join {
+    @extend .btn-outline-success;
+    background: transparent;
+    color: lighten($theme_primary, 20%);
+    &:hover {
+      background-color: $theme_primary;
+      color: $light;
+    }
+  }
+  .investment-label {
+    color: $light;
+  }
+}
+
+// Bootstrap Breakpoints
+@include media-breakpoint-up(sm) {
+  //
+  .w-sm-50 {
+    width: 50%;
+  }
+
+  .w-sm-auto {
+    width: auto !important;
+  }
+}
+@include media-breakpoint-up(md) {
+  //
+  .w-md-50 {
+    width: 50%;
+  }
+
+  .w-md-auto {
+    width: auto !important;
+  }
+}
+@include media-breakpoint-up(lg) {
+  //
+  .w-lg-50 {
+    width: 50%;
+  }
+
+  .w-lg-auto {
+    width: auto !important;
+  }
+}
+@include media-breakpoint-up(xl) {
+  //
+  .w-xl-50 {
+    width: 50%;
+  }
+
+  .w-xl-auto {
+    width: auto !important;
+  }
+}
+@include media-breakpoint-up(xxl) {
+  //
+  .w-xxl-50 {
+    width: 50%;
+  }
+
+  .w-xxl-auto {
+    width: auto !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .min-height-lg {
+    min-height: 100vh;
+  }
+
+  .hero-section {
+    min-height: 100vh;
+    position: relative;
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+    "site": {
+        "name": "",
+        "icon": "",
+        "logo": "",
+        "label": "",
+        "title": "",
+        "description": "",
+        "keywords": [],
+        "copy": ""
+    },
+    "welcome_message": "",
+    "buttons": {
+        "join_us": "",
+        "subscribe": "",
+        "dark_mode": "",
+        "light_mode": "",
+        "button": ""
+    },
+    "navbar": {
+        "label": "",
+        "title": "",
+        "description": ""
+    },
+    "header_section": {
+        "label": "",
+        "title": "",
+        "description": ""
+    },
+    "footer_section": {
+        "label": "",
+        "title": "",
+        "description": "",
+        "copy": ""
+    },
+    "hero_section": {
+        "label": "",
+        "title": "",
+        "welcome_message": "",
+        "primary_line": "",
+        "secondary_line": "",
+        "join_button": ""
+    },
+    "stats_section": {
+        "label": "",
+        "title": "",
+        "cards": "",
+        "investors": "",
+        "partners": "",
+        "projects": "",
+        "budget": "",
+        "foot_line": ""
+    }
+}
